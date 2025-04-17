@@ -41,20 +41,36 @@ This project contains a set of Bash scripts designed to automate the preprocessi
 Run the `unzip.sh` script to extract all `.zip` files into separate folders:
 
 ```bash
-[unzip.sh](http://_vscodecontentref_/0)
+chmod +x unzip.sh
+```
+
+```bash
+./unzip.sh
 ```
 
 ### 2. Replacing Tester Files
 
 Run the replaceTester.sh script to replace all FileSystemTester.cpp files in student directories with the master tester file:
 
-[replaceTester.sh](http://_vscodecontentref_/1)
+```bash
+chmod +x replaceTester.sh
+```
+
+```bash
+./replaceTester.sh
+```
 
 ### 3. Collecting Submission Files
 
 Run the collectSubmissionFiles.sh script to gather all FileSystem.cpp files into a single folder (collected_cpp_files) for easier access:
 
-[collectSubmissionFiles.sh](http://_vscodecontentref_/2)
+```bash
+chmod +x collectSubmissionFiles.sh
+```
+
+```bash
+./collectSubmissionFiles.sh
+```
 
 ### 4. Compiling and Running Code
 
@@ -63,7 +79,13 @@ Run the runAll.sh script to compile and execute each student's code. The script 
 Compile all .cpp files in each student's directory.
 Capture the output or compilation errors in a file named <student_id>\_output.txt inside the output folder.
 
-[runAll.sh](http://_vscodecontentref_/3)
+```bash
+chmod +x runAll.sh
+```
+
+```bash
+./runAll.sh
+```
 
 ## Output
 
